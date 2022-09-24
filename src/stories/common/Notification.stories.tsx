@@ -9,28 +9,28 @@ export default {
 const Template: ComponentStory<typeof Notification> = (args) => <Notification {...args} />;
 export const Error = Template.bind({});
 Error.args = {
-    open: false,
+    open: true,
     children: 'Error',
     severity: 'error',
 };
 
 export const Info = Template.bind({});
 Info.args = {
-    open: false,
+    open: true,
     children: 'Info',
     severity: 'info',
 };
 
 export const Success = Template.bind({});
 Success.args = {
-    open: false,
+    open: true,
     children: 'Success',
     severity: 'success',
 };
 
 export const Warning = Template.bind({});
 Warning.args = {
-    open: false,
+    open: true,
     children: 'Warning',
     severity: 'warning',
 };
